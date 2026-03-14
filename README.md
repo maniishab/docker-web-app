@@ -1,25 +1,25 @@
- # Dockerizing a Flask Web Application
+# Dockerizing a Flask Web Application
 
-This project demonstrates how a simple Python Flask web application can be containerized using Docker. Containerization allows applications and their dependencies to be packaged together, ensuring consistent behavior across different environments.
-
----
-
-## 🚀 Project Overview
-
-The project includes a basic Flask web application that is packaged into a Docker container. Docker makes it possible to run the application reliably on any system without worrying about environment configuration differences.
+This project demonstrates how a simple Python Flask web application can be containerized using Docker. Containerization packages the application and its dependencies together, allowing it to run consistently across different environments.
 
 ---
 
-## 🛠 Technologies Used
+## Project Overview
 
-* **Python** – Programming language used for the application
-* **Flask** – Lightweight web framework for building the web application
-* **Docker** – Platform used to build and run containers
-* **Dockerfile** – File containing instructions to build the Docker image
+The repository contains a basic Flask web application that is packaged and executed inside a Docker container. Using Docker simplifies deployment and ensures that the application behaves the same way regardless of where it is run.
 
 ---
 
-## 📂 Project Structure
+## Technologies Used
+
+* Python
+* Flask
+* Docker
+* Dockerfile
+
+---
+
+## Project Structure
 
 ```
 docker-web-app
@@ -32,13 +32,13 @@ docker-web-app
 ```
 
 * **app.py** – Flask application source code
-* **requirements.txt** – Python dependencies required for the application
-* **Dockerfile** – Instructions used by Docker to build the container image
-* **screenshots** – Contains screenshots showing the application output
+* **requirements.txt** – Python dependencies required by the application
+* **Dockerfile** – Instructions used to build the Docker image
+* **screenshots** – Contains screenshots of the Docker setup and running application
 
 ---
 
-## ⚙️ How to Run This Project
+## How to Run This Project
 
 ### 1. Clone the repository
 
@@ -78,7 +78,7 @@ Hello from Docker Container!
 
 ---
 
-## 📸 Project Screenshots
+## Project Screenshots
 
 ### Docker Images and Container
 
@@ -90,9 +90,9 @@ Hello from Docker Container!
 
 ---
 
-## 📚 Learning Outcomes
+## Learning Outcomes
 
-* Understanding Docker and containerization concepts
+* Understanding the basics of Docker and containerization
 * Writing and using a Dockerfile
 * Building Docker images
 * Running applications inside containers
